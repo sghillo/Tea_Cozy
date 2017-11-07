@@ -59,7 +59,7 @@ a {
   margin: auto;
 }
 
-div {
+div, h2, h3, h4, h5, p, .item img, {
   display: block;
 }
 
@@ -92,13 +92,11 @@ h2, h3, h4 {
 }
 
 h2 {
-  display: block;
   font-size: 1.5em;
   font-weight: bold;
 }
 
 h4 {
-  display: block;
   font-weight: bold;
 }
 
@@ -109,7 +107,6 @@ h4 {
 .item img {
   height: 200px;
   margin: 10px;
-  display: block;
 }
 
 .item span {
@@ -148,13 +145,8 @@ h4 {
 }
 
 h3 {
-  display: block;
   font-size: 1.17em;
   font-weight: bold;
-}
-
-p {
-  display: block;
 }
 
 /* Contact Section */
@@ -164,7 +156,6 @@ p {
 }
 
 h5 {
-  display: block;
   font-size: 0.83em;
   font-weight: bold;
 }
